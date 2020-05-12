@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="REZGINYS rankų darbo dirbiniai: pintinės, vytinės juostos, margučiai, megztos piršinės ir daugiau.">
+    <meta name="description" content="REZGINYS rankų darbo dirbiniai: riešinės, vytinės juostos, pintinės, megztos piršinės ir daugiau.">
 
     <link href="../css/menu-styles.css" rel="stylesheet">
     <link href="../css/article-style.css" rel="stylesheet">
@@ -28,22 +28,22 @@
         <div class="products-container">
             <div class="product">
                 <div>
-                    <img src="../assets/gloves/min_gloves_1.jpg" alt="Virbalais megztos geltonos pirštinės" title="Virbalais megztos geltonos pirštinės">
+                    <img src="../assets/braids/min_braid_7.jpg" alt="Vytinė juosta su pynute" title="Vytinė juosta su pynute">
                 </div>
                 <div class="product-description">
                     <div class="product-name">
-                        <p>Virbalais megztos geltonos pirštinės</p>
+                        <p>Vytinė juosta su pynute</p>
                     </div>
                 <br>
                 <br>
                     <div>
-                        <p>Siūlo sudėtis: 75 % akrilas, 25 % vilna. Delno ilgis 18 cm, plotis 9 cm.
+                        <p>Siūlo sudėtis: 80 % vilna, 20 % akrilas. Plotis 3,5 cm.
                         </p>
                     </div>
                 <br>
                 <br>
                     <div>
-                        <p class="price">Kaina: 30,00 Eur su PVM</p>
+                        <p class="price">Kaina: 30,00 Eur su PVM/ m</p>
                     </div>
                 <br>
                 <br>
@@ -86,27 +86,56 @@
             </div>
             <div class="product">
                 <div>
-                    <img src="../assets/gloves/min_gloves_2.jpg" alt="Virbalais megztos žalios pirštinės" title="Virbalais megztos žalios pirštinės">
+                    <img src="../assets/wristband/mini_riesines_5.jpg" alt="Tamsiai žalios riešinės" title="Tamsiai žalios riešinės">
                 </div>
                 <div class="product-description">
                     <div class="product-name">
-                        <p>Virbalais megztos žalios pirštinės</p>
+                        <p>Tamsiai žalios riešinės</p>
                     </div>
                 <br>
                 <br>
                     <div>
-                        <p>Siūlo sudėtis: 75 % akrilas, 25 % vilna. Delno ilgis 18 cm, plotis 9 cm.
+                        <p>Siūlo sudėtis: 70 % vilna, 30 % akrilas. Karoliukai Čekiškas biseris. Ilgis 13 cm, plotis 9 cm.
                         </p>
                     </div>
                 <br>
                 <br>
                     <div>
-                        <p class="price">Kaina: 30,00 Eur su PVM</p>
+                        <p class="price">Kaina: 25,00 Eur su PVM</p>
                     </div>
                 <br>
                 <br>
                     <div>
                         <a href="account.html"><button class="shop-card">Į prekių krepšelį</button>
+                        </a>
+                <br>
+                <br>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <a href="../assets/baskets/basket_1.jpg" target="_blank">
+                    <img src="../assets/baskets/min_basket_1.jpg" alt="Pintas krepšelis su aguona" title="Pintas krepšelis su aguona">
+                </a>
+                <div class="product-description">
+                    <div class="product-name">
+                        <p>Pintas krepšelis su aguona</p>
+                    </div>
+                <br>
+                <br>
+                    <div>
+                        <p>Pinta iš vytelių, dugnas dekupažas. Matmenys: ilgis 19 cm, plotis 14 cm.</p>
+                    </div>
+                <br>
+                <br>
+                    <div>
+                        <p class="price">Kaina: 4,00 Eur su PVM</p>
+                    </div>
+                <br>
+                <br>
+                    <div>
+                        <a href="account.html">
+                            <button class="shop-card">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>

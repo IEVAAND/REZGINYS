@@ -35,30 +35,27 @@
     </div>
     <div class="menu">
 
-        <a class="menu-item" href="main.php">Pagrindinis</a>
-        <div class="dropdown-menu">
-            <a class="dropdown-button menu-item">E.parduotuvė</a>
-            <div class="dropdown-content">
-                <a href="shop/baskets/index.html">Pinti krepšeliai</a>
-                <a href="shop/braids/index.html">Juostos</a>
-                <a href="shop/easter-eggs/index.html">Margučiai</a>
-                <a href="shop/knitwear/index.html">Mezginiai</a>
-            </div>
-        </div>
-        <a class="menu-item" href="atisans/artisans.html">Amatininkai</a>
+        <a class="menu-item" href="index.php">Pagrindinis</a>
+        <a class="menu-item" href="eshop.php">E. parduotuvė</a>
+        <a class="menu-item" href="artisans.php">Amatininkai</a>
         <a class="menu-item" href="contacts.html">Kontaktai</a>
 
         <?php
         if (!isset($_SESSION['u_id'])){
             echo '<a class="menu-item" href="signup.php">Registruotis</a>
+
+            <div class="login-form">
             <form action="../includes/login.inc.php" method="POST">
             <input type="text" name="userid" placeholder="Vartotojo vardas" />
             <input type="password" name="passw" placeholder="Slaptažodis" />
-            <button type="submit" name="submit">Prisijungti</button>
-            </form>';
+            <button id="login-button" type="submit" name="submit">Prisijungti</button>
+            </form>
+            </div>';
         }else{
-            echo'<form action="../includes/logout.inc.php" method="POST">
-            <button type="submit" name="submit">Atsijungti</button>';
+            echo'<div class="loguot-form">
+            <form action="../includes/logout.inc.php" method="POST">
+            <button id="logout-button" type="submit" name="submit">Atsijungti</button></form>
+            </div>';
         }
         ?>
     </div>
