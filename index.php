@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="REZGINYS rankų darbo dirbiniai: riešinės, vytinės juostos, pintinės, megztos piršinės ir daugiau.">
 
-    <link href="../css/menu-styles.css" rel="stylesheet">
-    <link href="../css/article-style.css" rel="stylesheet">
-    <link href="../css/footer-style.css" rel="stylesheet">
-
+    <link href="css/menu-styles.css" rel="stylesheet">
+    <link href="css/article-style.css" rel="stylesheet">
+    <link href="css/footer-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>REZGINYS | Pagrindinis</title>
 </head>
 
 <body>
-    <?php include('../header.php'); ?>
+    <?php include('header.php'); ?>
 
     <article class="main-content">
         <h1>Internetinė parduotuvė „Rezginys“.</h1>
@@ -26,9 +26,12 @@
         <line x1="0" y1="0" x2="1000" y2="0" style="stroke:grey;stroke-width:3"/>
         </svg>
         <div class="products-container">
+
             <div class="product">
                 <div>
-                    <img src="../assets/braids/min_braid_7.jpg" alt="Vytinė juosta su pynute" title="Vytinė juosta su pynute">
+                    <a href="assets/braids/Jurgos/braid_7.jpg" target="_blank">
+                    <img src="assets/braids/Jurgos/min_braid_7.jpg" alt="Vytinė juosta su pynute" title="Vytinė juosta su pynute">
+                    </a>
                 </div>
                 <div class="product-description">
                     <div class="product-name">
@@ -57,7 +60,9 @@
             </div>
             <div class="product">
                 <div>
-                    <img src="../assets/gloves/min_gloves_4.jpg" alt="Virbalais megztos baltos pirštinės" title="Virbalais megztos baltos pirštinės">
+                    <a href="assets/gloves/gloves_4.jpg" target="_blank">
+                        <img src="assets/gloves/min_gloves_4.jpg" alt="Virbalais megztos baltos pirštinės" title="Virbalais megztos baltos pirštinės">
+                    </a>
                 </div>
                 <div class="product-description">
                     <div class="product-name">
@@ -86,7 +91,9 @@
             </div>
             <div class="product">
                 <div>
-                    <img src="../assets/wristband/mini_riesines_5.jpg" alt="Tamsiai žalios riešinės" title="Tamsiai žalios riešinės">
+                    <a href="assets/wristband/riesines_5.jpg" target="_blank">
+                    <img src="assets/wristband/mini_riesines_5.jpg" alt="Tamsiai žalios riešinės" title="Tamsiai žalios riešinės">
+                    </a>
                 </div>
                 <div class="product-description">
                     <div class="product-name">
@@ -114,8 +121,8 @@
                 </div>
             </div>
             <div class="product">
-                <a href="../assets/baskets/basket_1.jpg" target="_blank">
-                    <img src="../assets/baskets/min_basket_1.jpg" alt="Pintas krepšelis su aguona" title="Pintas krepšelis su aguona">
+                <a href="assets/baskets/basket_1.jpg" target="_blank">
+                    <img src="assets/baskets/min_basket_1.jpg" alt="Pintas krepšelis su aguona" title="Pintas krepšelis su aguona">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -145,7 +152,7 @@
         </div>
     </article>
 
-    <?php include('../footer.php'); ?>
+    <?php include('footer.php'); ?>
 
 </body>
 </html>

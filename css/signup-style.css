@@ -28,14 +28,14 @@ section{
     color: black;
 }
 
-.signup-form button {
-    display:block;
-    width:30%;
-    height:30px;
-    border:none;
-    background-color:black;
-    color:white;
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
 }
-.signup-form button:hover {
-    background-color: #c9f0d4;
+
+.btn:hover {
+  background-color: #c9f0d4;
 }

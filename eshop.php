@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="REZGINYS rankų darbo dirbiniai: riešinės, vytinės juostos, pintinės, megztos piršinės ir daugiau.">
 
-    <link href="../css/menu-styles.css" rel="stylesheet">
-    <link href="../css/article-style.css" rel="stylesheet">
-    <link href="../css/footer-style.css" rel="stylesheet">
-    <link href="../css/filter.css" rel="stylesheet">
-
+    <link href="css/menu-styles.css" rel="stylesheet">
+    <link href="css/article-style.css" rel="stylesheet">
+    <link href="css/footer-style.css" rel="stylesheet">
+    <link href="css/filter.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>REZGINYS | E.parduotuvė</title>
 </head>
 
 <body>
-    <?php include('../header.php'); ?>
+    <?php include('header.php'); ?>
 
     <article class="main-content">
         <h1>Rankų darbo dirbiniai, išsirinkite!</h1>
 
         <div id="selector">
-            <button class="btn active" onclick="filterSelection('all')">Visos kategorijos</button>
+            <button class="btn" onclick="filterSelection('all')">Visos kategorijos</button>
             <button class="btn" onclick="filterSelection('baskets')">Pinti krepšeliai</button>
             <button class="btn" onclick="filterSelection('braids')">Juostos</button>
             <button class="btn" onclick="filterSelection('gloves')">Pirštinės</button>
@@ -36,8 +36,8 @@
         <div class="products-container">
 
             <div class="product braids">
-                <a href="../assets/braids/braid_5.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_5.jpg" alt="Vytinė juosta žaliais raštais" title="Vytinė juosta žaliais raštais">
+                <a href="assets/braids/Jurgos/braid_5.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Jurgos/min_braid_5.jpg" alt="Vytinė juosta žaliais raštais" title="Vytinė juosta žaliais raštais">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -67,8 +67,8 @@
             </div>
 
             <div class="product baskets">
-                <a href="../assets/baskets/basket_1.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/baskets/min_basket_1.jpg" alt="Pintas krepšelis su aguona" title="Pintas krepšelis su aguona">
+                <a href="assets/baskets/basket_1.jpg" target="_blank" class="active-picture">
+                    <img src="assets/baskets/min_basket_1.jpg" alt="Pintas krepšelis su aguona" title="Pintas krepšelis su aguona">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -97,8 +97,8 @@
             </div>
 
             <div class="product braids">
-                <a href="../assets/braids/braid_1.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_1.jpg" alt="Vytinė geltona marga juosta" title="Vytinė geltona marga juosta">
+                <a href="assets/braids/Vilmos/braid_1.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Vilmos/min_braid_1.jpg" alt="Vytinė geltona marga juosta" title="Vytinė geltona marga juosta">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -127,8 +127,8 @@
             </div>
 
             <div class="product wrisband">
-                <a href="../assets/wristband/riesines_1.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/wristband/mini_riesines_1.jpg" alt="Riešinės, maunamos per pirštą" title="Riešinės, maunamos per pirštą">
+                <a href="assets/wristband/riesines_1.jpg" target="_blank" class="active-picture">
+                    <img src="assets/wristband/mini_riesines_1.jpg" alt="Riešinės, maunamos per pirštą" title="Riešinės, maunamos per pirštą">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -157,8 +157,8 @@
             </div>
 
             <div class="product gloves">
-                <a href="../assets/gloves/min_gloves_4.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/gloves/min_gloves_4.jpg" alt="Virbalais megztos baltos pirštinės" title="Virbalais megztos baltos pirštinės">
+                <a href="assets/gloves/min_gloves_4.jpg" target="_blank" class="active-picture">
+                    <img src="assets/gloves/min_gloves_4.jpg" alt="Virbalais megztos baltos pirštinės" title="Virbalais megztos baltos pirštinės">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -188,8 +188,8 @@
             </div>
 
             <div class="product braids">
-                <a href="../assets/braids/braid_2.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_2.jpg" alt="Vytinė mėlyna juosta" title="Vytinė mėlyna juosta">
+                <a href="assets/braids/Vilmos/braid_2.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Vilmos/min_braid_2.jpg" alt="Vytinė mėlyna juosta" title="Vytinė mėlyna juosta">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -218,8 +218,8 @@
             </div>
 
             <div class="product baskets">
-                <a href="../assets/baskets/basket_2.jpg" target="_blank">
-                    <img src="../assets/baskets/min_basket_2.jpg" alt="Paprasta pinta dėžutė" title="Paprasta pinta dėžutė">
+                <a href="assets/baskets/basket_2.jpg" target="_blank">
+                    <img src="assets/baskets/min_basket_2.jpg" alt="Paprasta pinta dėžutė" title="Paprasta pinta dėžutė">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -248,8 +248,8 @@
             </div>
 
             <div class="product braids">
-                <a href="../assets/braids/braid_3.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_3.jpg" alt="Vytinė juosta baltu raudonu raštu" title="Vytinė juosta baltu raudonu raštu">
+                <a href="assets/braids/Vilmos/braid_3.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Vilmos/min_braid_3.jpg" alt="Vytinė juosta baltu raudonu raštu" title="Vytinė juosta baltu raudonu raštu">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -279,7 +279,7 @@
 
             <div class="product baskets">
                 <div>
-                    <a href="../assets/baskets/basket_3.jpg" target="_blank"><img src="../assets/baskets/min_basket_3.jpg" alt="Maža dėžutė papuošalams" title="Maža dėžutė papuošalams"></a>
+                    <a href="assets/baskets/basket_3.jpg" target="_blank"><img src="assets/baskets/min_basket_3.jpg" alt="Maža dėžutė papuošalams" title="Maža dėžutė papuošalams"></a>
                 </div>
                 <div class="product-description">
                     <div class="product-name">
@@ -308,8 +308,8 @@
             </div>
 
             <div class="product braids">
-                <a href="../assets/braids/braid_4.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_4.jpg" alt="Vytinė juosta raudonu raštu" title="Vytinė juosta raudonu raštu">
+                <a href="assets/braids/Vilmos/braid_4.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Vilmos/min_braid_4.jpg" alt="Vytinė juosta raudonu raštu" title="Vytinė juosta raudonu raštu">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -338,8 +338,8 @@
             </div>
 
             <div class="product gloves">
-                <a href="../assets/gloves/min_gloves_2.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/gloves/min_gloves_2.jpg" alt="Virbalais megztos žalios pirštinės" title="Virbalais megztos žalios pirštinės">
+                <a href="assets/gloves/min_gloves_2.jpg" target="_blank" class="active-picture">
+                    <img src="assets/gloves/min_gloves_2.jpg" alt="Virbalais megztos žalios pirštinės" title="Virbalais megztos žalios pirštinės">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -369,8 +369,8 @@
             </div>
 
             <div class="product braids">
-                <a href="../assets/braids/braid_9.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_9.jpg" alt="Vytinė juosta bangelių raštu" title="Vytinė juosta bangelių raštu">
+                <a href="assets/braids/Jurgos/braid_9.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Jurgos/min_braid_9.jpg" alt="Vytinė juosta bangelių raštu" title="Vytinė juosta bangelių raštu">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -399,8 +399,8 @@
             </div>
 
             <div class="product braids">
-                <a href="../assets/braids/braid_8.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_8.jpg" alt="Vytinė juosta išskirtiniu raštu" title="Vytinė juosta išskirtiniu raštu">
+                <a href="assets/braids/Jurgos/braid_8.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Jurgos/min_braid_8.jpg" alt="Vytinė juosta išskirtiniu raštu" title="Vytinė juosta išskirtiniu raštu">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -429,8 +429,8 @@
             </div>
 
             <div class="product wrisband">
-                <a href="../assets/wristband/riesines_2.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/wristband/mini_riesines_2.jpg" alt="Gelsvos riešinės" title="Gelsvos riešinės">
+                <a href="assets/wristband/riesines_2.jpg" target="_blank" class="active-picture">
+                    <img src="assets/wristband/mini_riesines_2.jpg" alt="Gelsvos riešinės" title="Gelsvos riešinės">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -459,8 +459,8 @@
             </div>
 
             <div class="product braids">
-                <a href="../assets/braids/braid_7.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_7.jpg" alt="Vytinė juosta išskirtiniu raštu" title="Vytinė juosta išskirtiniu raštu">
+                <a href="assets/braids/Jurgos/braid_7.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Jurgos/min_braid_7.jpg" alt="Vytinė juosta išskirtiniu raštu" title="Vytinė juosta išskirtiniu raštu">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -490,8 +490,8 @@
             </div>
 
             <div class="product gloves">
-                <a href="../assets/gloves/min_gloves_1.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/gloves/min_gloves_1.jpg" alt="Virbalais megztos geltonos pirštinės" title="Virbalais megztos geltonos pirštinės">
+                <a href="assets/gloves/min_gloves_1.jpg" target="_blank" class="active-picture">
+                    <img src="assets/gloves/min_gloves_1.jpg" alt="Virbalais megztos geltonos pirštinės" title="Virbalais megztos geltonos pirštinės">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -521,8 +521,8 @@
             </div>
 
             <div class="product wrisband">
-                <a href="../assets/wristband/riesines_4.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/wristband/mini_riesines_4.jpg" alt="Pilkos riešinės" title="Pilkos riešinės">
+                <a href="assets/wristband/riesines_4.jpg" target="_blank" class="active-picture">
+                    <img src="assets/wristband/mini_riesines_4.jpg" alt="Pilkos riešinės" title="Pilkos riešinės">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -551,8 +551,8 @@
             </div>
 
             <div class="product gloves">
-                <a href="../assets/gloves/min_gloves_5.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/gloves/min_gloves_5.jpg" alt="Virbalais megztos rudos pirštinės" title="Virbalais megztos rudos pirštinės">
+                <a href="assets/gloves/min_gloves_5.jpg" target="_blank" class="active-picture">
+                    <img src="assets/gloves/min_gloves_5.jpg" alt="Virbalais megztos rudos pirštinės" title="Virbalais megztos rudos pirštinės">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -582,8 +582,8 @@
             </div>
 
             <div class="product gloves">
-                <a href="../assets/gloves/min_gloves_6.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/gloves/min_gloves_6.jpg" alt="Virbalais megztos žalsvos pirštinės" title="Virbalais megztos žalsvos pirštinės">
+                <a href="assets/gloves/min_gloves_6.jpg" target="_blank" class="active-picture">
+                    <img src="assets/gloves/min_gloves_6.jpg" alt="Virbalais megztos žalsvos pirštinės" title="Virbalais megztos žalsvos pirštinės">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -613,8 +613,8 @@
             </div>
 
             <div class="product wrisband">
-                <a href="../assets/wristband/riesines_3.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/wristband/mini_riesines_3.jpg" alt="Juodos riešinės" title="Juodos riešinės">
+                <a href="assets/wristband/riesines_3.jpg" target="_blank" class="active-picture">
+                    <img src="assets/wristband/mini_riesines_3.jpg" alt="Juodos riešinės" title="Juodos riešinės">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -643,8 +643,8 @@
             </div>
 
             <div class="product braids">
-                <a href="../assets/braids/braid_6.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/braids/min_braid_6.jpg" alt="Vytinė juosta baltiškais raštais" title="Vytinė juosta baltiškais raštais">
+                <a href="assets/braids/Jurgos/braid_6.jpg" target="_blank" class="active-picture">
+                    <img src="assets/braids/Jurgos/min_braid_6.jpg" alt="Vytinė juosta baltiškais raštais" title="Vytinė juosta baltiškais raštais">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -674,8 +674,8 @@
             </div>
 
             <div class="product wrisband">
-                <a href="../assets/wristband/riesines_5.jpg" target="_blank" class="active-picture">
-                    <img src="../assets/wristband/mini_riesines_5.jpg" alt="Žalios riešinės su raudonu raštu" title="Žalios riešinės su raudonu raštu">
+                <a href="assets/wristband/riesines_5.jpg" target="_blank" class="active-picture">
+                    <img src="assets/wristband/mini_riesines_5.jpg" alt="Žalios riešinės su raudonu raštu" title="Žalios riešinės su raudonu raštu">
                 </a>
                 <div class="product-description">
                     <div class="product-name">
@@ -743,19 +743,19 @@ function RemoveClass(element, name) {
 
 
 //Add active class to the current button (highlight it)
-var btnContainer = document.getElementByClassName("selector");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+//var btnContainer = document.getElementByClassName("selector");
+//var btns = btnContainer.getElementsByClassName("btn");
+//for (var i = 0; i < btns.length; i++) {
+//  btns[i].addEventListener("click", function(){
+//    var current = document.getElementsByClassName("active");
+//    current[0].className = current[0].className.replace(" active", "");
+//    this.className += " active";
+//  });
+//}
 </script>
 
 
-    <?php include('../footer.php'); ?>
+    <?php include('footer.php'); ?>
 
 </body>
 </html>

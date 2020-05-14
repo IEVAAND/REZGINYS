@@ -37,6 +37,15 @@ header{
 .menu a:hover {background-color: #c9f0d4;}
 
 /*
+#logout-button {
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    background-color:cadetblue;
+    cursor: pointer;
+}
+*/
+/*
 @media all and (min-width:600px){
             .menu{
                 flex: 1 0 0;

@@ -6,20 +6,20 @@
         $passw = mysqli_real_escape_string($mysqli, $_POST['passw']);
 
         if (empty($userid) || empty($passw)) {
-            header("Location: ../lt/main.php?login=empty");
+            header("Location: ../index.php?login=empty");
             exit();
         } else {
             $query = "SELECT * FROM users WHERE user_userid = '$userid';";
             $result = mysqli_query($mysqli, $query);
             $resulCheck = mysqli_num_rows($result);
             if ($resulCheck < 1) {
-                header("Location: ../lt/main.php?login=error");
+                header("Location: ../index.php?login=error");
                 exit();
             } else {
                 if ($row = mysqli_fetch_assoc($result)) {
                     $hashPwd = password_verify($passw, $row['user_passw']);
                     if ($hashPwd == false) {
-                        header("Location: ../lt/main.php?login=no");
+                        header("Location: ../index.php?login=no");
                         exit();
                     } elseif ($hashPwd == true) {
                         $_SESSION['u_id'] = $row['user_id'];
@@ -27,7 +27,7 @@
                         $_SESSION['u_last'] = $row['user_last'];
                         $_SESSION['u_email'] = $row['user_email'];
                         $_SESSION['u_userid'] = $row['user_userid'];
-                        header("Location: ../lt/main.php?login=success");
+                        header("Location: ../index.php?login=success");
                         exit();
                     }
                 }
@@ -36,6 +36,6 @@
 
     }
 else {
-        header("Location: ../lt/main.php?login=error");
+        header("Location: ../index.php?login=error");
         exit();
     }

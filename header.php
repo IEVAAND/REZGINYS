@@ -38,23 +38,21 @@
         <a class="menu-item" href="index.php">Pagrindinis</a>
         <a class="menu-item" href="eshop.php">E. parduotuvė</a>
         <a class="menu-item" href="artisans.php">Amatininkai</a>
-        <a class="menu-item" href="contacts.html">Kontaktai</a>
+        <a class="menu-item" href="contacts.php">Kontaktai</a>
 
         <?php
         if (!isset($_SESSION['u_id'])){
             echo '<a class="menu-item" href="signup.php">Registruotis</a>
 
-            <div class="login-form">
-            <form action="../includes/login.inc.php" method="POST">
-            <input type="text" name="userid" placeholder="Vartotojo vardas" />
-            <input type="password" name="passw" placeholder="Slaptažodis" />
-            <button id="login-button" type="submit" name="submit">Prisijungti</button>
-            </form>
-            </div>';
+            <a href="login.php"><i class="fa fa-sign-in" style="font-size:30px;color:white;" title="Prisijungti"></i>
+            </a>';
         }else{
             echo'<div class="loguot-form">
-            <form action="../includes/logout.inc.php" method="POST">
-            <button id="logout-button" type="submit" name="submit">Atsijungti</button></form>
+                <form action="includes/logout.inc.php" method="POST">
+                    <button type="submit" name="submit">
+                    <i class="fa fa-sign-out" style="font-size:30px;color:white;" aria-hidden="true" title="Atsijungti"></i>
+                    </button>
+                </form>
             </div>';
         }
         ?>
