@@ -10,22 +10,22 @@
     <link href="css/article-style.css" rel="stylesheet">
     <link href="css/footer-style.css" rel="stylesheet">
     <link href="css/filter.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>REZGINYS | E.parduotuvė</title>
 </head>
 
 <body>
-    <?php include('header.php'); ?>
+<?php include('header.php'); ?>
 
     <article class="main-content">
         <h1>Rankų darbo dirbiniai, išsirinkite!</h1>
 
         <div id="selector">
-            <button class="btn" onclick="filterSelection('all')">Visos kategorijos</button>
-            <button class="btn" onclick="filterSelection('baskets')">Pinti krepšeliai</button>
-            <button class="btn" onclick="filterSelection('braids')">Juostos</button>
-            <button class="btn" onclick="filterSelection('gloves')">Pirštinės</button>
-            <button class="btn" onclick="filterSelection('wrisband')">Riešinės</button>
+            <button class="button-style" onclick="filterSelection('all')">Visos kategorijos</button>
+            <button class="button-style" onclick="filterSelection('baskets')">Pinti krepšeliai</button>
+            <button class="button-style" onclick="filterSelection('braids')">Juostos</button>
+            <button class="button-style" onclick="filterSelection('gloves')">Pirštinės</button>
+            <button class="button-style" onclick="filterSelection('wrisband')">Riešinės</button>
         </div>
 
 
@@ -57,8 +57,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -87,8 +87,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -117,8 +117,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -147,8 +147,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -178,8 +178,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -208,8 +208,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -238,8 +238,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -268,8 +268,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -298,8 +298,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -328,8 +328,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -359,8 +359,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -389,8 +389,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -419,8 +419,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -449,8 +449,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -480,8 +480,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -511,8 +511,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -541,8 +541,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -572,8 +572,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -603,8 +603,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -633,8 +633,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -664,8 +664,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -694,8 +694,8 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php">
+                            <button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -709,53 +709,42 @@
 
 <script>
 
-//document.getElementsByClassName("main-content");
+// document.getElementsByClassName("main-content");
 
 function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("product");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
+    var x, i;
+    x = document.getElementsByClassName("product");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
     RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
-  }
+    }
 }
 function AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+    }
 
 function RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
     }
-  }
-  element.className = arr1.join(" ");
-}
+    element.className = arr1.join(" ");
+    }
 
-
-//Add active class to the current button (highlight it)
-//var btnContainer = document.getElementByClassName("selector");
-//var btns = btnContainer.getElementsByClassName("btn");
-//for (var i = 0; i < btns.length; i++) {
-//  btns[i].addEventListener("click", function(){
-//    var current = document.getElementsByClassName("active");
-//    current[0].className = current[0].className.replace(" active", "");
-//    this.className += " active";
-//  });
-//}
 </script>
 
 
-    <?php include('footer.php'); ?>
+<?php include('footer.php'); ?>
 
 </body>
 </html>

@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>REZGINYS | Registracija</title>
+        <link rel="stylesheet" href="css/article-style.css">
         <link rel="stylesheet" href="css/signup-style.css">
         <link rel="stylesheet" href="css/menu-styles.css">
         <link rel="stylesheet" href="css/footer-style.css">
@@ -20,7 +21,7 @@
                     <input name="email" placeholder="E-mail">
                     <input name="userid" placeholder="Vartotojo vardas">
                     <input type="password" name="passw" placeholder="Slaptažodis">
-                    <button class="btn" type="submit" name="submit">Registruotis</button>
+                    <button class="button-style" type="submit" name="submit">Registruotis</button>
                 </form>
             </div>
         </section>

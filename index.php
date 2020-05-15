@@ -13,14 +13,14 @@
 </head>
 
 <body>
-    <?php include('header.php'); ?>
+<?php include('header.php'); ?>
 
     <article class="main-content">
         <h1>Internetinė parduotuvė „Rezginys“.</h1>
         <h2>Rankų darbo dirbiniai su savo istorija.</h2>
-        <p>
-            Mes sutelkiame žmones, kuriems patinka kurti.  Kiekviena šioje svetainėje parduodama prekė yra rankų darbo ir širdies...
-        </p>
+            <p>
+                Mes sutelkiame žmones, kuriems patinka kurti.  Kiekviena šioje svetainėje parduodama prekė yra rankų darbo ir širdies...
+            </p>
         <h2>Naujausi dirbiniai</h2>
         <svg height="5" width=100%>
         <line x1="0" y1="0" x2="1000" y2="0" style="stroke:grey;stroke-width:3"/>
@@ -51,7 +51,7 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html"><button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php"><button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -82,7 +82,7 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html"><button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php"><button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -113,7 +113,7 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html"><button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php"><button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -141,8 +141,7 @@
                 <br>
                 <br>
                     <div>
-                        <a href="account.html">
-                            <button class="shop-card">Į prekių krepšelį</button>
+                        <a href="shop_card.php"><button class="button-style">Į prekių krepšelį</button>
                         </a>
                 <br>
                 <br>
@@ -152,7 +151,7 @@
         </div>
     </article>
 
-    <?php include('footer.php'); ?>
+<?php include('footer.php'); ?>
 
 </body>
 </html>

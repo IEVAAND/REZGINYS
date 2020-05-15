@@ -16,22 +16,21 @@
 
     <article class="main-content">
         <h1>Internetinė parduotuvė „Rezginys“.</h1>
-        <h2>Rankų darbo dirbiniai su savo istorija.</h2>
-        <p>Jei esate prisiregistravę, suveskite savo prisijungimo vardą ir slaptaždį.
+            <h2>Rankų darbo dirbiniai su savo istorija.</h2>
+                <p>Jei esate prisiregistravę, suveskite savo prisijungimo vardą ir slaptaždį.</p>
         <svg height="5" width=100%>
         <line x1="0" y1="0" x2="1000" y2="0" style="stroke:grey;stroke-width:3"/>
         </svg>
 
      <?php
-            echo'<div class="login-form">
-            <form action="includes/login.inc.php" method="POST">
-            <input type="text" name="userid" placeholder="Vartotojo vardas" />
-            <input type="password" name="passw" placeholder="Slaptažodis" />
-            <button id="login-button" type="submit" name="submit">Prisijungti</button>
-            </form>
-            </div>';
-
-        ?>
+        echo'<div class="login-form">
+        <form action="includes/login.inc.php" method="POST">
+        <input type="text" name="userid" placeholder="Vartotojo vardas" />
+        <input type="password" name="passw" placeholder="Slaptažodis" />
+        <button class="button-style" type="submit" name="submit">Prisijungti</button>
+        </form>
+        </div>';
+    ?>
 
     </article>
 

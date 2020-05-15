@@ -35,7 +35,7 @@
         }
 
     }
-else {
+    else {
         header("Location: ../index.php?login=error");
         exit();
     }

@@ -10,10 +10,9 @@
 
 .product{
     display: block;
-    max-width: 450px;
-    height: 320px;
-/*            border: 1px solid grey;*/
-    padding: 0;
+    width: 430px;
+    height: 100%;
+    margin: 3px;
 }
 
 .product div{
@@ -44,7 +43,19 @@
     font-weight: 600;
 }
 
-.shop-card{
+.login-form input {
+    display: flex;
+    flex-direction: column;
+    width:100px;
+    height:40px;
+    padding: 0 5%;
+    margin-bottom: 4px;
+    border:none;
+    background-color:#c9f0d4;
+    color: black;
+}
+
+.button-style {
     background-color: cadetblue;
     border: none;
     color: white;
@@ -52,7 +63,15 @@
     margin-bottom: 10px;
     font-size: 16px;
 }
-.shop-card:hover {
+
+.button-style:hover {
     background-color: #c9f0d4;
 }
+/*
+.button-style:active {
+    box-shadow: 0 8px 16px 0 grey, 0 6px 20px 0 grey;
+}
+*/
+
+
 

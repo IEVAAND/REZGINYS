@@ -40,21 +40,21 @@
         <a class="menu-item" href="artisans.php">Amatininkai</a>
         <a class="menu-item" href="contacts.php">Kontaktai</a>
 
-        <?php
-        if (!isset($_SESSION['u_id'])){
-            echo '<a class="menu-item" href="signup.php">Registruotis</a>
+<?php
+    if (!isset($_SESSION['u_id'])){
+        echo '<a class="menu-item" href="signup.php">Registruotis</a>
 
-            <a href="login.php"><i class="fa fa-sign-in" style="font-size:30px;color:white;" title="Prisijungti"></i>
-            </a>';
-        }else{
-            echo'<div class="loguot-form">
+        <a href="login.php"><button class="button-style"><i class="fa fa-sign-in" style="font-size:30px;color:white;" title="Prisijungti"></i></button>
+        </a>';
+    }else{
+        echo'<div class="loguot-form">
                 <form action="includes/logout.inc.php" method="POST">
-                    <button type="submit" name="submit">
+                    <button type="submit" name="submit" class="button-style">
                     <i class="fa fa-sign-out" style="font-size:30px;color:white;" aria-hidden="true" title="Atsijungti"></i>
                     </button>
                 </form>
             </div>';
-        }
-        ?>
+    }
+?>
     </div>
 </header>

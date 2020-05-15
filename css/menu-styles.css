@@ -4,18 +4,19 @@ body {
     padding: 0;
 }
 
-header{
+header {
     font-family:monospace;
     background-color:cadetblue;
     color: white;
     padding: 10px;
-    font-size: 16px;
     text-align: center;
 }
-    #title{
+
+#title {
     font-size: 30px;
     text-decoration-style: solid;
 }
+
 .menu {
     position: relative;
     align-items: center;
@@ -24,6 +25,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .menu-item {
     background-color:cadetblue;
     color: white;
@@ -36,19 +38,10 @@ header{
 
 .menu a:hover {background-color: #c9f0d4;}
 
-/*
-#logout-button {
-    border: none;
-    outline: none;
-    padding: 10px 10px;
-    background-color:cadetblue;
-    cursor: pointer;
-}
-*/
-/*
+
 @media all and (min-width:600px){
-            .menu{
-                flex: 1 0 0;
-            }
+    .menu{
+        flex: 1 0 0;
         }
-*/
+}
+
